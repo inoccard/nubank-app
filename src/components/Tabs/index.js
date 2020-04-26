@@ -1,13 +1,8 @@
 import React from 'react';
 import { Container } from './styles';
 
-export default function Header() {
+export default function Tabs() {
   return (
-      <Container>
-          <top>
-              <Logo source={} />
-              <Title>Inocencio</Title>
-          </top>
-    </Container>
+    <Container />
   );
 };

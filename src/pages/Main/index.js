@@ -4,12 +4,13 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import { Container, Content, Card, CardHeader, CardContent, Title, Description, CardFooter, Annotation } from './styles';
 import Header from '~/components/header';
 import Tabs from '~/components/tabs';
+import Menu from '~/components/menu';
 
 export default function Main() {
   return (
     <Container >
       <Header />
-
+      <Menu/>
       <Content>
         <Card>
           <CardHeader>

@@ -15,13 +15,13 @@ export const Content = styled.View`
 export const Card = styled.View`
   flex: 1;
   background: #FFF;
-  border-radius: 10px;
+  border-radius: 4px;
   margin: 0 20px;
-  height: 100%;
+  height: 370px;
   position: absolute;
   left: 0;
   right: 0;
-  top: 194px;
+  top: -400px;
 `;
 
 export const CardHeader = styled.View`
@@ -39,11 +39,11 @@ export const CardContent = styled.View`
 
 export const Title = styled.Text`
   font-size: 13px;
-  color: #999;
+  color: #333
 `;
 
 export const Description = styled.Text`
-  font-size: 32px;
+  font-size: 27px;
   margin-top: 3px;
   color: #333;
 `;
